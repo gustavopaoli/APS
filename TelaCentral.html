@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Gerenciador de Jobs</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to bottom right, #ecd4f7, #e8c8f1);
+      color: #2c0d70;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 15px;
+      font-size: 14px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #2c0d70;
+      font-weight: bold;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 30px auto;
+      background-color: white;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(140, 0, 255, 0.3);
+      border: 2px solid #d4a3ff;
+      text-align: center;
+    }
+
+    h2 {
+      margin-bottom: 10px;
+      font-size: 18px;
+    }
+
+    .base-info {
+      font-size: 14px;
+      margin-bottom: 25px;
+    }
+
+    .base-info b {
+      color: #4c0080;
+    }
+
+    .buttons {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+    }
+
+    .buttons button {
+      padding: 10px 25px;
+      border-radius: 15px;
+      border: 1px solid #000;
+      background-color: white;
+      font-weight: bold;
+      cursor: pointer;
+      transition: all 0.2s ease-in-out;
+    }
+
+    .buttons button:hover {
+      background-color: #f2e6ff;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="#">Bases de Dados</a>
+    <a href="#">Gerenciador de Jobs</a>
+  </nav>
+
+  <div class="container">
+    <h2>GERENCIADOR DE JOBS</h2>
+    <div class="base-info"><b>Base Conectada:</b> PRD</div>
+    <div class="buttons">
+      <button>LISTAR</button>
+      <button>HISTÓRICO</button>
+      <button>AGENDAR</button>
+    </div>
+  </div>
+</body>
+</html>
